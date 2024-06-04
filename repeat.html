@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Flag Project</title>
+  <style>
+    .container{
+      display: grid;
+      grid-template-columns: repeat(2,2fr);
+      grid-template-rows: repeat(3,2fr);
+      gap: 5px;
+    }
+
+    .box{
+      border: 2px solid gray;
+      background-color: aqua;
+    }
+  </style>
+</head>
+
+<body>
+    <h1>Using repeat</h1>
+    <p>Creates a given size for n no of times</p>
+    <p>repeat(8,100px) ie will repeat 100px for 8 times</p>
+  <div class="container">
+    <div class="box">1</div>
+    <div class="box">2</div>
+    <div class="box">3</div>
+    <div class="box">4</div>
+    <div class="box">5</div>
+    <!-- <div class="box">6</div> -->
+  </div>
+</body>
+
+</html>

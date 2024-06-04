@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Flag Project</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: 200px auto;
+            grid-template-rows: 100px auto;
+            gap: 5px;
+        }
+
+        .box {
+            border: 2px solid gray;
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Auto Sizing</h1>
+    <p>Column-auto: takes entire width available</p>
+    <p>Row-auto: takes width of content (not entire available)</p>
+    <div class="container">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+    </div>
+</body>
+
+</html>

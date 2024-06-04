@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Flag Project</title>
+  <style>
+    .container{
+      display: grid;
+      grid-template-columns: repeat(2,2fr);
+      grid-template-rows: repeat(3,2fr);
+      grid-auto-rows: 4fr;
+      /* grid-auto-columns: 4fr; */
+      gap: 5px;
+    }
+
+    .box{
+      border: 2px solid gray;
+      background-color: aqua;
+    }
+  </style>
+</head>
+
+<body>
+    <h1>Using grid-auto-rows and grid-auto-columns</h1>
+    <p>Creates a given size for new rows/colms added</p>
+    <p>ie d 4th row will have 4fr size instead of 2fr for previous rows</p>
+  <div class="container">
+    <div class="box">1</div>
+    <div class="box">2</div>
+    <div class="box">3</div>
+    <div class="box">4</div>
+    <div class="box">5</div>
+    <div class="box">6</div>
+    <div class="box">7</div>
+    <div class="box">8</div>
+    <div class="box">9</div>
+  </div>
+</body>
+
+</html>
